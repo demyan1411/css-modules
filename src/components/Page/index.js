@@ -22,7 +22,7 @@ export default class Page extends Component {
     </div>
   }
 }
-
+ 
 Page.propTypes = {
   year: PropTypes.number.isRequired,
   setYear: PropTypes.func.isRequired
