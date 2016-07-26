@@ -1,0 +1,24 @@
+.btn1 {
+  composes: btn from  "../../styles/button.scss";
+  background: red;
+}
+.btn2 {
+  composes: btn from  "../../styles/button.scss";
+  background: green;
+}
+.btn3 {
+  composes: btn from  "../../styles/button.scss";
+  background: magenta;
+}
+
+.title {
+  color: red;
+
+  .text {
+    color: green;
+  }
+}
+
+.text {
+  text-transform: uppercase;
+}
